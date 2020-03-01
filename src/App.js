@@ -1,26 +1,35 @@
-import React from 'react';
-import logo from './logo.svg';
+import React from "react";
+import { Switch, Route } from 'react-router-dom';
+import Portfolio from './pages/Portfolio.js';
+import About from './pages/About.js';
+// import Photo from './pages/Photo.js';
+// import Code from './pages/Code.js';
+// import Music from './pages/Music.js';
 import './App.css';
+
+const ErrorPage = () => {
+  return (
+    <div className="body">
+      <div className="error-text" >
+        <h1> 404: Page Not Found :(</h1>
+      </div>
+      {/* <img src={ErrorGif} className="error-gif" /> */}
+    </div>
+  );
+};
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Switch>
+      <Route exact path='/' exact component={Portfolio} />
+      <Route exact path='/about' exact component={About} />
+      {/* <Route exact path='/photo' exact component={Photo} />
+      <Route exact path='/code' exact component={Code} />
+      <Route exact path='/music' exact component={Music} /> */}
+      <Route component={ErrorPage} />
+    </Switch>
   );
 }
 
 export default App;
+ 

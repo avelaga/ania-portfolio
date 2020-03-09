@@ -5,7 +5,7 @@ export class DetailsCard extends Component {
   renderImage(img) {
     return (
       <div>
-        <img src={img} />
+        <img src={img} className="portfolio-img" />
       </div>
     );
   }
@@ -13,9 +13,11 @@ export class DetailsCard extends Component {
   render() {
     return (
     <div className="page">
-      hi
+      {this.props.text}
+      <div className="flex">
         {this.props.arr.map(img => this.renderImage(img))}
-        hello
+      </div>
+
     </div>
     ); 
   }

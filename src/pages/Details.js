@@ -9,12 +9,11 @@ export class Details extends Component {
     Img,
     Img
   ]
-  
+
   render() {
     const id = this.props.match.params.id;
     return <div className="page">
-      <DetailsCard arr={this.arr} />
-      hello this is page {id}
+      <DetailsCard arr={this.arr} text="i made this" />
     </div>; 
   }
 }

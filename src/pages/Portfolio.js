@@ -5,13 +5,13 @@ import '../App.css';
 export class Portfolio extends Component {
   render() {
     return <div className="page flex">
-      <img src={Img} className="portfolio-img"></img>
-      <img src={Img} className="portfolio-img"></img>
-      <img src={Img} className="portfolio-img"></img>
-      <img src={Img} className="portfolio-img"></img>
-      <img src={Img} className="portfolio-img"></img>
-      <img src={Img} className="portfolio-img"></img>
-      <img src={Img} className="portfolio-img"></img>
+      <a href="/1"><img src={Img} className="portfolio-img"></img></a>
+      <a href="/2"><img src={Img} className="portfolio-img"></img></a>
+      <a href="/3"><img src={Img} className="portfolio-img"></img></a>
+      <a href="/4"><img src={Img} className="portfolio-img"></img></a>
+      <a href="/5"><img src={Img} className="portfolio-img"></img></a>
+      <a href="/6"><img src={Img} className="portfolio-img"></img></a>
+      <a href="/7"><img src={Img} className="portfolio-img"></img></a>
     </div>;
   }
 }

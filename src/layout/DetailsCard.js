@@ -2,16 +2,19 @@ import React, { Component } from "react";
 import './layout.css';
 
 export class DetailsCard extends Component {
-  // images = this.props.arr[0].map(image => {
-  //   return <img key={image} src={require(`../images/${image}.png`)} />
-  // });
+  renderImage(img) {
+    return (
+      <div>
+        <img src={img} />
+      </div>
+    );
+  }
 
   render() {
     return (
     <div className="page">
       hi
-        <img src={this.props.arr[0].img1} />
-        {/* {images} */}
+        {this.props.arr.map(img => this.renderImage(img))}
         hello
     </div>
     ); 

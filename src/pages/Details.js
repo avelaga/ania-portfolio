@@ -5,17 +5,16 @@ import '../App.css';
 
 export class Details extends Component {
   arr = [
-    {
-      img1 : Img,
-      img2 : Img,
-      img3 : Img
-    }
+    Img,
+    Img,
+    Img
   ]
+  
   render() {
     const id = this.props.match.params.id;
     return <div className="page">
       <DetailsCard arr={this.arr} />
-      hello thi sis page {id}
+      hello this is page {id}
     </div>; 
   }
 }

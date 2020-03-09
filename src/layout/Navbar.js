@@ -5,9 +5,11 @@ export class Navbar extends Component {
   render() {
     return (
     <div className="sidenav">
-      <h1>ANIA</h1>
-      <h3><a href="/">Portfolio</a></h3>
-      <h3><a href="/about">About</a></h3>
+      <div className="name">ANIA</div>
+      <div className="links">
+        <a href="/">Portfolio</a><br></br>
+        <a href="/about">About</a>
+      </div>
     </div>
     ); 
   }

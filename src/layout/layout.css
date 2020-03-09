@@ -10,4 +10,33 @@
   padding-top: 10px;
   transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
   padding-left: 20px;
+
+  /* font-family: 'Helvetica', sans-serif; */
+}
+
+/* unvisited link */
+a:link {
+  color: black;
+}
+
+/* visited link */
+a:visited {
+  color: black;
+}
+
+/* mouse over link */
+a:hover {
+  color: grey;
+  text-decoration: none;
+}
+
+.links {
+  font-size: 40px;
+  font-weight: 100;
+  line-height: 50px;
+}
+
+.name {
+  font-size: 60px;
+  line-height: 60px;
 }

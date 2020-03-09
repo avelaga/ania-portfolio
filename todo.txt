@@ -1,0 +1,5 @@
+- about page
+- arch portfolio, images only - main page
+- details page for each portfolio - a few images and a piece of text
+- white background
+- figure out logo? she prefers font - helvetica "ANIA" 

@@ -2,6 +2,7 @@ import React from "react";
 import { Switch, Route } from 'react-router-dom';
 import Portfolio from './pages/Portfolio.js';
 import About from './pages/About.js';
+import Navbar from './layout/Navbar.js';
 // import Photo from './pages/Photo.js';
 // import Code from './pages/Code.js';
 // import Music from './pages/Music.js';

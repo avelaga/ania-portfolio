@@ -2,10 +2,7 @@ import React from "react";
 import { Switch, Route } from 'react-router-dom';
 import Portfolio from './pages/Portfolio.js';
 import About from './pages/About.js';
-import Navbar from './layout/Navbar.js';
-// import Photo from './pages/Photo.js';
-// import Code from './pages/Code.js';
-// import Music from './pages/Music.js';
+import Details from './pages/Details.js';
 import './App.css';
 
 const ErrorPage = () => {
@@ -24,9 +21,7 @@ function App() {
     <Switch>
       <Route exact path='/' exact component={Portfolio} />
       <Route exact path='/about' exact component={About} />
-      {/* <Route exact path='/photo' exact component={Photo} />
-      <Route exact path='/code' exact component={Code} />
-      <Route exact path='/music' exact component={Music} /> */}
+      <Route exact path='/:id' exact component={Details} />
       <Route component={ErrorPage} />
     </Switch>
   );

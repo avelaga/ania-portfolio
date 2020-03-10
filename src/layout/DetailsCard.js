@@ -13,8 +13,11 @@ export class DetailsCard extends Component {
   render() {
     return (
     <div className="page">
-      {this.props.text}
-      <div className="flex">
+      <div className="details-text">
+        {this.props.text}
+      </div>
+
+      <div className="details-photos flex">
         {this.props.arr.map(img => this.renderImage(img))}
       </div>
 

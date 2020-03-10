@@ -37,10 +37,8 @@ a:hover {
 
 .name {
   font-size: 50px;
-  line-height: 60px;
   color: rgb(70,70,70);
   float: left;
-  width: 600px;
 }
 
 .navbar {
@@ -59,4 +57,15 @@ a:hover {
 
 .links {
   width: 170px;
+}
+
+.details-text {
+  margin-left: 18px;
+  /* width: 34vw; */
+  float: left;
+}
+
+.details-photos {
+  width: 35vw;
+  float: right;
 }

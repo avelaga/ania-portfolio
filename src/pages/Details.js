@@ -13,7 +13,7 @@ export class Details extends Component {
   render() {
     const id = this.props.match.params.id;
     return <div className="page">
-      <DetailsCard arr={this.arr} text="i made this" />
+      <DetailsCard arr={this.arr} text="i made this and it looks cool and this is where i will tell u why" />
     </div>; 
   }
 }

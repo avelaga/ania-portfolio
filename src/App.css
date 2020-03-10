@@ -1,6 +1,7 @@
 .page {
   margin-left: 150px;
   margin-top: 10px;
+  
   /* align-content: flex-start; */
   font-family: 'Helvetica', 'Arial', sans-serif;
 }
@@ -12,6 +13,17 @@
 }
 
 .portfolio-img {
-  height: 300px;
+  width: calc(35vw - 20px);
   margin: 10px;
+}
+
+.portfolio {
+  /* margin-left: 150px; */
+  /* margin: auto; */
+  /* width: 1000px; */
+  font-family: 'Helvetica', 'Arial', sans-serif;
+
+  width: 70vw;
+  margin: auto;
+  margin-top: 40px;
 }

@@ -1,6 +1,6 @@
 .sidenav {
   height: 100vh; /* 100% Full-height */
-  width: 200px; /* 0 width - change this with JavaScript */
+  width: 150px; 
   position: fixed; /* Stay in place */
   z-index: 1; /* Stay on top */
   top: 0; /* Stay at the top */
@@ -10,7 +10,6 @@
   padding-top: 10px;
   transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
   padding-left: 20px;
-
   /* font-family: 'Helvetica', sans-serif; */
 }
 
@@ -30,13 +29,34 @@ a:hover {
   text-decoration: none;
 }
 
-.links {
-  font-size: 40px;
-  font-weight: 100;
-  line-height: 50px;
+.link {
+  font-size: 15px;
+  font-weight: 300;
+  width: 50px
 }
 
 .name {
-  font-size: 60px;
+  font-size: 50px;
   line-height: 60px;
+  color: rgb(70,70,70);
+  float: left;
+  width: 600px;
+}
+
+.navbar {
+  width: 70vw;
+  margin: auto;
+  margin-top: 40px;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.links {
+  width: 170px;
 }

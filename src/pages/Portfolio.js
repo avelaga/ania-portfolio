@@ -4,7 +4,7 @@ import '../App.css';
 
 export class Portfolio extends Component {
   render() {
-    return <div className="page flex">
+    return <div className="flex portfolio">
       <a href="/1"><img src={Img} className="portfolio-img"></img></a>
       <a href="/2"><img src={Img} className="portfolio-img"></img></a>
       <a href="/3"><img src={Img} className="portfolio-img"></img></a>

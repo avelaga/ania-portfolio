@@ -1,29 +1,38 @@
 .sidenav {
-  height: 100vh; /* 100% Full-height */
-  width: 150px; 
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Stay on top */
-  top: 0; /* Stay at the top */
+  height: 100vh;
+  /* 100% Full-height */
+  width: 150px;
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Stay on top */
+  top: 0;
+  /* Stay at the top */
   left: 0;
   /* background-color: #111; Black */
-  overflow-x: hidden; /* Disable horizontal scroll */
+  overflow-x: hidden;
+  /* Disable horizontal scroll */
   padding-top: 10px;
-  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+  transition: 0.5s;
+  /* 0.5 second transition effect to slide in the sidenav */
   padding-left: 20px;
   /* font-family: 'Helvetica', sans-serif; */
 }
 
 /* unvisited link */
+
 a:link {
   color: black;
 }
 
 /* visited link */
+
 a:visited {
   color: black;
 }
 
 /* mouse over link */
+
 a:hover {
   color: grey;
   text-decoration: none;
@@ -37,7 +46,7 @@ a:hover {
 
 .name {
   font-size: 50px;
-  color: rgb(70,70,70);
+  color: rgb(70, 70, 70);
   float: left;
 }
 
@@ -65,7 +74,30 @@ a:hover {
   float: left;
 }
 
+.mobile-details-text {
+  width: 90vw;
+  text-align: center;
+  font-size: 50px;
+}
+
 .details-photos {
   width: 35vw;
   float: right;
+}
+
+.mobile-details-photos {
+  width: 90vw;
+}
+
+.title {
+  font-size: 93px;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.mobile-link {
+  width: 100vw;
+  text-align: center;
+  font-size: 50px;
+  margin-top: 30px;
 }

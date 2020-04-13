@@ -16,12 +16,20 @@
   margin: 10px;
 }
 
-.page {
-  /* margin-left: 150px; */
-  /* margin: auto; */
-  /* width: 1000px; */
-  font-family: 'Helvetica', 'Arial', sans-serif;
+.mobile-portfolio-img {
+  width: calc(90vw - 20px);
+  margin: 10px;
+}
 
+.page {
+  font-family: 'Helvetica', 'Arial', sans-serif;
+  width: 90vw;
+  margin: auto;
+  margin-top: 40px;
+}
+
+.mobile-page {
+  font-family: 'Helvetica', 'Arial', sans-serif;
   width: 70vw;
   margin: auto;
   margin-top: 40px;
